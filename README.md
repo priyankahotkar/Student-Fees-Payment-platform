@@ -1,6 +1,6 @@
 # StudentPay
 
-A full stack Student Fee Management System built with React, TypeScript, Tailwind CSS, and Firebase (Firestore & Auth).
+A full stack Student Fee Management System built with React, TypeScript, Tailwind CSS, and Firebase (Firestore & Auth). [View live website](https://studentpay-14810.web.app/)
 
 ## Features
 
@@ -21,17 +21,20 @@ A full stack Student Fee Management System built with React, TypeScript, Tailwin
 ## Setup Instructions
 
 1. **Clone the repository:**
+
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/priyankahotkar/Student-Fees-Payment-platform.git
    cd <project-folder>
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Firebase Setup:**
+
    - The project is pre-configured for Firebase. If you want to use your own Firebase project:
      - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
      - Enable Email/Password and Google authentication in Firebase Auth
@@ -39,6 +42,7 @@ A full stack Student Fee Management System built with React, TypeScript, Tailwin
      - Replace the config in `src/lib/firebase.ts` with your own credentials
 
 4. **Add Success Sound:**
+
    - Place your `success.mp3` file in the `public/` folder for payment notifications.
 
 5. **Run the app:**
@@ -76,4 +80,4 @@ project/
 
 ## License
 
-This project is for educational/demo purposes. Feel free to use and modify for your own learning! 
+This project is for educational/demo purposes. Feel free to use and modify for your own learning!
